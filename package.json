@@ -1,0 +1,27 @@
+{
+  "name": "reactuate.github.io",
+  "version": "1.0.0",
+  "description": "Reactuate website",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/reactuate/webpack-dev-server.js",
+    "build": "NODE_ENV=production webpack --config node_modules/reactuate/default-webpack-config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactuate/reactuate.github.io.git"
+  },
+  "keywords": [
+    "reactuate"
+  ],
+  "author": "Yurii Rashkovskii <yrashk@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reactuate/reactuate.github.io/issues"
+  },
+  "homepage": "https://github.com/reactuate/reactuate.github.io#readme",
+  "devDependencies": {
+    "reactuate": "^0.1.16"
+  }
+}
